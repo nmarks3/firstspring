@@ -8,7 +8,10 @@
     
     <bean id = "mypet" class = "firstspring.Giraffe" />
     <bean id = "owner" class = "firstspring.OwnerService">
-    
+    <!--
+    <constructer-arg name = "name" value = "JJ" />
+    <constructer-arg name = "pet" ref = "mypet" /> 
+        -->
         <property name = "pet" ref = "mypet" />
     
     </bean>
